@@ -4,7 +4,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # Load dataset
-data = pd.read_csv('data\dataset_house_apartment.csv')
+data = pd.read_csv('data/dataset_house_apartment.csv')
 
 @app.route("/", methods=['GET'])
 def welcome():
